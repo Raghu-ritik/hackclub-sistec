@@ -193,7 +193,7 @@
 
 
 .bdy {
-	margin:0;
+	margin:2%;
 	font-family: 'Roboto Condensed', sans-serif;
   width: 100%;
   height: 80vh;
@@ -466,7 +466,7 @@ li {
   background-image: url("images/icons/instagram.png");
 }
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:750px) {
   .banner {
     flex-direction: column-reverse;
     height: auto;
@@ -511,6 +511,9 @@ li {
   .jifimg p{
     font-size: 1.4rem;
   }
+  .bdy{
+    height: 80vh;
+  }
   #progress-bar-container li .step-inner {
     position:absolute;
     width:100%;
@@ -519,7 +522,7 @@ li {
     }
     .footer{
       height: auto;
-      padding: 12%;
+      padding: 5%;
     }
     .social_container{
       flex-direction: column;
@@ -528,10 +531,12 @@ li {
     .social_icon{
       margin-bottom: 0.3rem;
     }
+
 }
 
 
-@media only screen and (max-width:400px) {
+
+@media only screen and (max-width:450px) {
   .banner {
     flex-direction: column-reverse;
     height: auto;
@@ -583,4 +588,39 @@ li {
   #progress-bar-container li .step-inner {
     font-size: 0.5rem;
     }
+    .footer{
+      height: 48vh;
+      padding-top: 10px;
+      margin-top: 5%;
+    }
+    .fc1{
+      margin-left: 15px;
+    }
+
+    .footer_container{
+      width: 99%;
+      padding: 0%;
+      margin: 0%;
+    }
+
+    .social_container{
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .social_icon{
+      margin-bottom: 0.3rem;
+    }
+}
+
+@media only screen and (max-width:380px) {
+  .process-wrapper{
+    position: absolute;
+    height: 100vh;
+  }  
+  .footer{
+    position: absolute;
+    height: 60vh;
+
+    }
+
 }
